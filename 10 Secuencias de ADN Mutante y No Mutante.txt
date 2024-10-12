@@ -1,0 +1,128 @@
+10 Secuencias de ADN Mutante
+Estas secuencias cumplen con el criterio de tener más de una secuencia de cuatro letras idénticas (A, T, C, G) de forma horizontal, vertical o diagonal.
+
+Mutante 1
+
+["ATGCGA", "CAGTGC", "TTATGT", "AGAAGG", "CCCCTA", "TCACTG"]
+
+Análisis:
+Secuencia horizontal de "AAAA" en la fila 4: "AGAAGG".
+Secuencia diagonal de "GGGG" desde la posición (0,5) a (3,2).
+
+Mutante 2
+
+["AGGTAA", "AGGTAA", "AGGTAA", "AGGTAA", "AGGTAA", "GGGGGG"]
+
+Análisis:
+Secuencia vertical de "G" en la columna 1.
+Secuencia horizontal de "G" en la fila 5.
+
+Mutante 3
+
+["CAAAAA", "ACAAAA", "AACAAA", "AAACAA", "AAAACA", "AAAAAC"]
+
+Análisis:
+Secuencia diagonal de "C" desde la posición (0,0) a (5,5).
+Secuencias horizontales de "A" en todas las filas.
+
+Mutante 4
+
+["AAAATA", "AAAATA", "AAAATA", "AAAATA", "GGGGGG", "AAAATA"]
+
+Análisis:
+Secuencia vertical de "T" en la columna 3.
+Secuencia horizontal de "G" en la fila 4.
+
+Mutante 5
+
+["ATGCGA", "CCCCCC", "TTATGT", "TTTTTT", "CCCCTA", "TCACTG"]
+
+Análisis:
+Secuencia horizontal de "C" en la fila 1.
+Secuencia horizontal de "T" en la fila 3.
+
+Mutante 6
+
+["GAAAAC", "AGAACA", "AAGACA", "AAAGCA", "AAAAGC", "CAAAAG"]
+
+Análisis:
+Secuencia diagonal de "G" desde (0,0) a (5,5).
+Secuencia diagonal inversa de "C" desde (5,0) a (0,5).
+
+Mutante 7
+
+["ATGCGA", "CAGTGC", "ATTTTA", "AGAAGG", "ACCCCC", "TCACTG"]
+
+Análisis:
+Secuencia horizontal de "T" en la fila 2.
+Secuencia horizontal de "C" en la fila 4.
+
+Mutante 8
+
+["AGGGGC", "AGGGGC", "AGGGGC", "AGGGGC", "AGGGGC", "AGGGGC"]
+
+Análisis:
+Secuencia vertical de "A" en la columna 0.
+Secuencia vertical de "C" en la columna 5.
+
+Mutante 9
+
+["AAAAAT", "AAAATA", "AAATAA", "AATAAA", "ATAAAA", "TAAAAA"]
+
+Análisis:
+Secuencia diagonal inversa de "T" desde (0,5) a (5,0).
+Secuencias horizontales de "A" en varias filas.
+
+Mutante 10
+
+["CCCGCC", "AAGAAA", "AAGAAA", "AAGAAA", "AAGAAA", "AAGAAA"]
+
+Análisis:
+Secuencia horizontal de "C" en la fila 0.
+Secuencia vertical de "G" en la columna 2.
+
+10 Secuencias de ADN No Mutante
+Estas secuencias no cumplen con el criterio de tener más de una secuencia de cuatro letras idénticas.
+
+No Mutante 1
+
+["ATGCGA", "CAGTGC", "TTATGT", "AGACGG", "GCGTCA", "TCACTG"]
+
+Análisis:
+No hay más de una secuencia de cuatro letras idénticas.
+
+No Mutante 2
+
+["ATGCGA", "CAGTAC", "TTATGT", "AGACGG", "GCGTCA", "TCACTG"]
+
+No Mutante 3
+
+["ATGCGT", "CAGTGC", "TTATGT", "AGACGG", "GCGTCA", "TCACTG"]
+
+No Mutante 4
+
+["AGTCGA", "CTGTAC", "TATTGT", "AGACGG", "GCGTCA", "TCACTG"]
+
+No Mutante 5
+
+["ATGCGA", "CAGTGC", "TTATGT", "AGACGT", "GCGTCA", "TCACTG"]
+
+No Mutante 6
+
+["ATGCGG", "CAGTGC", "TTATGT", "AGACGG", "GCGTCA", "TCACTG"]
+
+No Mutante 7
+
+["AAGCTA", "CTGTAG", "TATTGA", "AGACGG", "GCGTCA", "TCACTG"]
+
+No Mutante 8
+
+["ATGCGA", "CAGTGC", "TTATGT", "AGACGG", "GCGTCA", "TCACAG"]
+
+No Mutante 9
+
+["ATGCGA", "CAGTGC", "TTATGT", "AGACGG", "GCGTCC", "TCACTG"]
+
+No Mutante 10
+
+["ATGCGA", "CAGTAC", "TTATGT", "AGACGG", "GCGTCA", "TCACTT"]
